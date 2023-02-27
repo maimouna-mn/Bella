@@ -1,0 +1,374 @@
+body{
+    --variable-color:orangered;
+    --taille-police:1em;
+    --police:"poppins";
+    --var-color:white;
+    --var-colore:black;
+    margin: 0;
+    padding: 0;
+}
+.conteneur{
+display: grid;
+grid-template-rows: 5% 45% 30% 40% 3%;
+}
+/*-----------------------------------------------------------------*/
+.entete{
+    background-color: var(--var-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 4rem;
+    position: relative;
+    top: 0;
+}
+.logo{
+    background-image: url(Logo.png);
+    width: 10em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    block-size: 5em;
+   background-position: center;
+}
+.acceuil{
+    
+  display: flex;
+
+}
+.item{
+    font-size: var(--taille-police);
+    font-family: var(--police);
+    padding: 2rem 3rem;
+}
+.home{
+    color: var(--variable-color);
+    font-size: var(--taille-police);
+    font-family: var(--police);
+}
+
+
+.contenu{
+
+background-color: var(--var-color);  
+  width: 100%;
+    block-size: 80rem;
+    position: relative;
+    top: 0;
+}
+.photo1{
+    
+    block-size: 40rem;
+    width: 100%;
+}
+
+.photo1 div {
+    width: 100%;
+    block-size: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0, 0.5)),url(baniere.jpeg);
+    background-size: cover;
+}
+
+.texte{
+    position: absolute;
+    top: 3rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: var(--var-color);
+    width: 40%;
+    margin: 0 auto;
+
+}
+.food{
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.why{
+    font-weight: bold;
+    font-size: 3.3em;
+    font-family: var(--police);
+    text-align: center;
+    margin-bottom: 4rem;
+
+}
+.download{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-bottom: 6rem;
+}
+.bttn{
+    display: flex;
+   justify-content:space-between;
+   margin: auto;
+   width: 35em;
+}
+.play{
+    font-weight: bold;
+    font-size: 1.8em;
+    border-radius: 5em;
+    width: 8em;
+    block-size: 2em;
+    background-color: var(--variable-color);
+}
+
+.app{
+    font-weight: bold;
+    font-size: 1.8em;
+    border-radius: 5em;
+    width: 8em;
+    block-size: 1.8em;
+    border-color: var(--var-colore);
+    border: solid var(--var-color);
+}
+
+.contenu1
+{
+position: absolute;
+top: 17%;
+width: 50%;
+left: 50%;
+transform: translateX(-50%);
+}
+.photo2{
+   width: 45em;
+   block-size: 83em;
+   background-image: url(2telephones.png);
+   background-size: 100%;
+   background-repeat: no-repeat;
+   position: relative;
+   background-position: center;
+
+}
+.trait{
+    position: relative;
+    bottom: -45rem;
+    width: 70%;
+    block-size: 0.1em;
+    margin:0 auto;
+    background-color: grey;
+  }
+.contenu2{
+    width: 80%;
+    margin: 0 auto;
+}
+.how{
+   font-weight: bold;
+   color: rgb(60, 62, 64);
+   font-size: 2em;
+   text-align: center;
+ 
+  }
+  .partie2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+  }
+  .portable2{
+    width: 42em;
+    block-size: 60em;
+    background-image: url(RectangleImg2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    
+  }
+  .texte1{
+    width: 50%;
+  }
+.create{
+    color: var(--variable-color);
+    font-size: 2em;
+  
+}
+.login{
+ 
+   
+    font-size: 2.5em;
+    font-weight: bold;
+}  
+.account{
+    font-size: 2.5em;
+    font-weight: bold; 
+ 
+}
+.an{
+   
+    font-size: 1.3em;
+}
+.and{
+ 
+    font-size: 1.3em;
+}
+
+.partie3{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.portable3{
+    width: 42em;
+    block-size: 60em;
+    background-image: url(RectangleImg3.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center; 
+   
+}
+.texte3{
+    justify-content: center;
+    align-items: center;
+}
+.explore{
+    color: var(--variable-color);
+    font-size: 2em;
+  
+}
+.shop{
+    font-size: 3em;
+    font-weight: bold;
+}  
+.meal{
+    font-size: 3em;
+    font-weight: bold; 
+}
+.shop1{
+    font-size: 1.3em;
+}
+.andenjoy{
+    font-size: 1.3em;
+}
+.contenu4{
+    width: 80%;
+    display: flex;
+    background-color: var(--var-color);
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.item1{
+    font-size: 1.5em;
+   
+}
+
+.icone1{
+    width: 3em;
+    block-size: 2.7em;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    justify-content:center;
+}
+
+.troistrait{
+
+   margin-top: -5em;
+   display: none;
+ 
+ 
+
+}
+
+.un{
+    border-radius: 1em;
+    width: 2.5em;
+    block-size: 0.5em;
+    background-color: gray;
+ 
+}
+.deux{
+    margin-top: 0.5em;
+
+    border-radius: 1em;
+    width: 2.5em;
+    block-size: 0.5em;
+    background-color: gray;
+   
+}
+
+.trois{
+    margin-top: 0.5em;
+
+    width: 2.5em;
+    border-radius: 1em;
+    block-size: 0.5em;
+    background-color: gray;
+}
+
+@media screen and (max-width:840px) {
+   .contenu1{
+    top: 22%;
+    width: 40%;
+    left: 14%;
+   }
+   .texte{
+  width: 80%;
+   }
+  .troistrait{
+    display: block;
+  }
+   .acceuil{
+    display: none;
+   }
+   .bttn{
+   
+    flex-direction: column;
+   align-items: center;
+   }
+   .play{
+    margin-bottom: 1rem;
+   }
+
+  
+   .contenu4{
+    flex-direction: column;
+
+   }
+   .icone{
+    display: none;
+   }
+   .partie2{
+   flex-direction: column-reverse;
+   
+  }
+  .partie3{
+   flex-direction: column;
+
+  }
+  .photo1 div {
+   
+    background-image: none;
+    background-color: rgb(245, 243, 243);
+}
+
+.food{
+    color: var(--var-colore);
+    
+}
+.why{
+    color: var(--var-colore);
+   
+}
+.download{
+    color: var(--var-colore);
+   
+}
+.how{
+  margin-top: 10rem;
+  }
+ .app{
+    color: var(--variable-color);
+
+ }
+.trait{
+    width: 100%;
+}
+
+}
+
